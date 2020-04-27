@@ -8,3 +8,6 @@ config['partyName'] = 'Rakesh\'s Bombsquad Server'
 config['maxPartySize'] = 6
 config['port'] = int(os.getenv("PORT", 43209))
 # config['playlistCode'] = 1242
+
+
+print(os.getenv("PORT"))
