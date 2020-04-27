@@ -1,1 +1,1 @@
-worker: chmod +x bombsquad_server && ./bombsquad_server
+worker: python server_run.py
