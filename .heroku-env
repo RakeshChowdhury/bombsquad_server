@@ -1,0 +1,6 @@
+PYTHONPATH=/app/.heroku/python/lib/python2.7/site-packages
+
+#LD_LIBRARY_PATH=/app/.heroku/python/lib/python2.7/
+
+LIBRARY_PATH=/app/.heroku/vendor/lib:/app/.heroku/python/lib:$LIBRARY_PATH
+LD_LIBRARY_PATH=/app/.heroku/vendor/lib:/app/.heroku/python/lib:$LD_LIBRARY_PATH
