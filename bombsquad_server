@@ -12,4 +12,4 @@ f.close()
 
 arch = "64"
 
-os.system('chmod +x ./bs_headless && ./bs_headless" +arch+ " -cfgdir bscfg')
+os.system('chmod +x ./bs_headless && ./bs_headless' +arch+ ' -cfgdir bscfg')
