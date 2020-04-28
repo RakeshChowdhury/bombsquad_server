@@ -10,4 +10,6 @@ f = open('bscfg/config.json', 'w')
 f.write(json.dumps(bscfg))
 f.close()
 
-os.system('chmod +x ./bs_headless && ./bs_headless -cfgdir bscfg')
+arch = "64"
+
+os.system('chmod +x ./bs_headless && ./bs_headless" +arch+ " -cfgdir bscfg')
